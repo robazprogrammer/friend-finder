@@ -1,0 +1,53 @@
+let friendData = [
+    {
+        "name":"Ahmed",
+        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "scores":[
+            5,
+            1,
+            4,
+            4,
+            5,
+            1,
+            2,
+            5,
+            4,
+            1
+          ]
+      },
+      
+    {
+        "name":"Marilyn",
+        "photo":"http://uncyclopedia.wikia.com/wiki/File:Marilyn_Monroe.jpg",
+        "scores":[
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+      },
+    {
+        "name":"Donald",
+        "photo":"https://en.wikipedia.org/wiki/File:Donald_Trump_August_19,_2015_(cropped).jpg",
+        "scores":[
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+      }
+  ];
+  
+  module.exports = friendData;
