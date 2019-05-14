@@ -13,12 +13,13 @@ module.exports = function(app) {
 
     friendData.forEach(function(friend) {
       let scoreDifference = 0;
+      
       for (let i = 0; i < friendData.length; i++) {
         scoreDifference += Math.abs(
           parseInt(friend.scores[i]) - parseInt(req.body.scores[i])
         );
       }
-
+      console.log("SD: ", scoreDifference);
       scoreArr.push(scoreDifference);
     });
 
